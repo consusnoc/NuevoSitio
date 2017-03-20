@@ -1,0 +1,130 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
+*{
+	border: 0;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/marble.jpg");  
+}
+
+#contenedor {
+	background-color: #F6F6FB;
+	height: 800px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.banner, .poemas, .autor{
+	background: #F6F6FB;
+	width: 780px;
+	height: 100px;
+}
+
+.banner{
+	font-family: 'Playfair Display 900', serif;
+	font-size: 24px;
+	color:#FEB4AB;
+	background: #162D4D;
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 65px;
+	line-height: 1.5;
+}
+
+.poemas{
+	background: #A67A23; 
+	height: 220px;
+	text-align: center;
+	margin-top: 5px;
+	font-family: 'Playfair Display 400',serif;
+	font-size: 1em;
+	color: #FEB4AB;
+	padding-bottom: 5px;
+}
+
+.poemas .poema1{
+	background: #162D4D;
+	width:252px;
+	height: 145px;
+	display:inline-block ;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 5px;
+
+}
+.poema1{
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 65px;
+}
+
+.poemas .poema2{
+	background: #162D4D;
+	width:252px;
+	height: 145px;
+	display: inline-block ;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 5px;
+}
+.poema2{
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 65px;
+}
+
+.poemas .poema3{
+	background: #162D4D; 
+	width:252px;
+	height: 145px;
+	display: inline-block ;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+.poema3{
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 65px;
+}
+
+
+.autor{
+	background: #D2E6DA;
+	height: 320px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Playfair Display 400',serif;
+	color: #162D4D;
+}
+
+.autor .img-autor img{
+	width:270px;
+	height: 270px;
+	display: inline-block ;
+	vertical-align: top;
+	margin: 10px;
+	padding-top: 10px;
+	float: left;
+}
+
+.autor .txt-autor{
+	background: #D2E6DA;;
+	width:450px;
+	height: 250px;
+	display: inline-block ;
+	vertical-align: top;
+	margin: 8px;
+	float: right;
+}
+.txt-autor{
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+
+}
